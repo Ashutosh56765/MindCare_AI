@@ -1,0 +1,6 @@
+{
+  "name": "MindCare AI — Mental Wellness & Support Platform",
+  "description": "AI-powered mental wellness support platform for students and young adults aligned with UN SDG 3 (Good Health and Well-being). Supportive conversations, mood check-ins, non-diagnostic wellness screening, self-care routines, and verified resources.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

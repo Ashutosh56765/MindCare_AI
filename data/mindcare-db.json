@@ -1,0 +1,372 @@
+{
+  "users": [
+    {
+      "id": "user-demo-alex",
+      "name": "Alex Rivera",
+      "email": "alex@student.edu",
+      "passwordHash": "c23645644aa997d119287131d04e477502cf75ecc8da3a91ac39fd12547a686b",
+      "studentStatus": "undergraduate",
+      "institution": "University Wellness Initiative",
+      "createdAt": "2026-09-26T06:02:59.012Z",
+      "preferences": {
+        "anonymousMode": false,
+        "dailyReminder": true,
+        "dataRetentionDays": 90,
+        "preferredName": "Alex"
+      }
+    }
+  ],
+  "moods": [
+    {
+      "id": "m-1",
+      "userId": "user-demo-alex",
+      "moodScore": 4,
+      "moodLabel": "Good",
+      "stressLevel": 3,
+      "emotions": [
+        "Calm",
+        "Hopeful",
+        "Productive"
+      ],
+      "stressors": [
+        "Academics"
+      ],
+      "note": "Finished my group project report early! Took a relaxing walk around the quad before sunset.",
+      "aiReflection": "Great work honoring your achievement and taking time to unwind outside. Balancing focus with gentle movement is wonderful for your nervous system.",
+      "timestamp": "2026-10-09T06:02:59.012Z"
+    },
+    {
+      "id": "m-2",
+      "userId": "user-demo-alex",
+      "moodScore": 3,
+      "moodLabel": "Okay",
+      "stressLevel": 5,
+      "emotions": [
+        "Tired",
+        "Neutral",
+        "Thoughtful"
+      ],
+      "stressors": [
+        "Sleep",
+        "Academics"
+      ],
+      "note": "Stayed up late studying for midterm. Brain felt a bit cloudy in morning lecture, but coffee and water helped.",
+      "aiReflection": "Late study nights can leave you drained. Remember that sleep is when memory consolidation happens—try prioritizing a calming 10-minute wind-down tonight.",
+      "timestamp": "2026-10-08T06:02:59.012Z"
+    },
+    {
+      "id": "m-3",
+      "userId": "user-demo-alex",
+      "moodScore": 2,
+      "moodLabel": "Low",
+      "stressLevel": 7,
+      "emotions": [
+        "Overwhelmed",
+        "Anxious",
+        "Pressured"
+      ],
+      "stressors": [
+        "Exams",
+        "Finances"
+      ],
+      "note": "Lots of deadlines stacking up this week. Felt tight in my chest during afternoon library session.",
+      "aiReflection": "It makes complete sense you felt tight when deadlines pile up. Remember you only need to tackle one step at a time. The 4-7-8 breath can help soften that chest tightness.",
+      "timestamp": "2026-10-07T06:02:59.012Z"
+    },
+    {
+      "id": "m-4",
+      "userId": "user-demo-alex",
+      "moodScore": 4,
+      "moodLabel": "Good",
+      "stressLevel": 4,
+      "emotions": [
+        "Relieved",
+        "Connected",
+        "Grateful"
+      ],
+      "stressors": [
+        "Social"
+      ],
+      "note": "Had lunch with Sam from biology class. Talking about our shared stress made me feel much less alone.",
+      "aiReflection": "Sharing vulnerabilities with friends reminds us that student stress is a shared journey, not an individual failing. Cherish these supportive connections.",
+      "timestamp": "2026-10-06T06:02:59.012Z"
+    },
+    {
+      "id": "m-5",
+      "userId": "user-demo-alex",
+      "moodScore": 5,
+      "moodLabel": "Great",
+      "stressLevel": 2,
+      "emotions": [
+        "Joyful",
+        "Energized",
+        "Grounded"
+      ],
+      "stressors": [],
+      "note": "Weekend hike and had 8 full hours of sleep. Feeling refreshed and optimistic about the upcoming month.",
+      "aiReflection": "What a beautiful reset. Nature and restorative sleep are powerful anchors for emotional resilience.",
+      "timestamp": "2026-10-05T06:02:59.012Z"
+    },
+    {
+      "id": "m-6",
+      "userId": "user-demo-alex",
+      "moodScore": 3,
+      "moodLabel": "Okay",
+      "stressLevel": 6,
+      "emotions": [
+        "Restless",
+        "Busy",
+        "Determined"
+      ],
+      "stressors": [
+        "Future Career",
+        "Academics"
+      ],
+      "note": "Drafting internship applications. Comparing myself with peers on LinkedIn caused some imposter syndrome.",
+      "aiReflection": "Career comparison is so common among students. Your path and timing are uniquely yours; measure your progress against your own starting point, not someone else's highlight reel.",
+      "timestamp": "2026-10-04T06:02:59.012Z"
+    },
+    {
+      "id": "m-7",
+      "userId": "user-demo-alex",
+      "moodScore": 4,
+      "moodLabel": "Good",
+      "stressLevel": 3,
+      "emotions": [
+        "Grounded",
+        "Proud",
+        "Focused"
+      ],
+      "stressors": [
+        "Academics"
+      ],
+      "note": "Practiced 10 minutes of box breathing before my calculus quiz. Felt noticeably calmer when reading questions.",
+      "aiReflection": "You successfully applied a regulating tool in real time! That self-awareness is a huge milestone for long-term stress management.",
+      "timestamp": "2026-10-03T06:02:59.012Z"
+    }
+  ],
+  "screenings": [
+    {
+      "id": "scr-1791612252705-5q3u",
+      "userId": "user-demo-alex",
+      "questionnaireType": "PHQ-4",
+      "answers": [
+        {
+          "questionId": "phq4_1",
+          "questionText": "Nervous",
+          "score": 1
+        },
+        {
+          "questionId": "phq4_2",
+          "questionText": "Worry",
+          "score": 2
+        },
+        {
+          "questionId": "phq4_3",
+          "questionText": "Anhedonia",
+          "score": 1
+        },
+        {
+          "questionId": "phq4_4",
+          "questionText": "Depressed",
+          "score": 1
+        }
+      ],
+      "totalScore": 5,
+      "anxietyScore": 3,
+      "depressionScore": 2,
+      "severity": "Mild",
+      "explanation": "Your responses suggest mild levels of anxiety or low mood. These fluctuations are very common among students during periods of academic deadlines.",
+      "recommendations": [
+        "Try 5-minute box breathing or 4-7-8 relaxation exercises daily.",
+        "Incorporate mindful study breaks using the Pomodoro technique.",
+        "Reach out to campus peer wellness groups or trusted friends."
+      ],
+      "isDisclaimerAcknowledged": true,
+      "timestamp": "2026-10-10T06:04:12.705Z"
+    },
+    {
+      "id": "scr-1",
+      "userId": "user-demo-alex",
+      "questionnaireType": "PHQ-4",
+      "answers": [
+        {
+          "questionId": "phq4_1",
+          "questionText": "Feeling nervous, anxious or on edge",
+          "score": 1
+        },
+        {
+          "questionId": "phq4_2",
+          "questionText": "Not being able to stop or control worrying",
+          "score": 1
+        },
+        {
+          "questionId": "phq4_3",
+          "questionText": "Little interest or pleasure in doing things",
+          "score": 0
+        },
+        {
+          "questionId": "phq4_4",
+          "questionText": "Feeling down, depressed, or hopeless",
+          "score": 1
+        }
+      ],
+      "totalScore": 3,
+      "anxietyScore": 2,
+      "depressionScore": 1,
+      "severity": "Mild",
+      "explanation": "Your score indicates mild levels of stress and situational worry, very common during midterms and heavy academic terms.",
+      "recommendations": [
+        "Engage in daily 5-minute grounding exercises like 4-7-8 breathing.",
+        "Schedule protected 20-minute study breaks away from digital screens.",
+        "Consider campus peer wellness circles or talking with an academic advisor."
+      ],
+      "isDisclaimerAcknowledged": true,
+      "timestamp": "2026-10-07T06:02:59.012Z"
+    }
+  ],
+  "chatSessions": [],
+  "resources": [
+    {
+      "id": "res-1",
+      "title": "988 Suicide & Crisis Lifeline",
+      "category": "Crisis Lines",
+      "description": "Free, confidential 24/7 support for anyone in suicidal crisis or emotional distress in the United States and Canada.",
+      "url": "https://988lifeline.org",
+      "phone": "988",
+      "sms": "Text 988",
+      "availableHours": "24/7, 365 days",
+      "country": "United States & Canada",
+      "tags": [
+        "Urgent",
+        "Crisis",
+        "Free",
+        "Confidential"
+      ],
+      "verified": true
+    },
+    {
+      "id": "res-2",
+      "title": "Crisis Text Line",
+      "category": "Crisis Lines",
+      "description": "Connect with a trained volunteer crisis counselor 24/7 over SMS message. Empathetic, free, confidential text support.",
+      "url": "https://www.crisistextline.org",
+      "sms": "Text HOME to 741741",
+      "availableHours": "24/7",
+      "country": "US, UK, Canada",
+      "tags": [
+        "Text Support",
+        "Free",
+        "24/7"
+      ],
+      "verified": true
+    },
+    {
+      "id": "res-3",
+      "title": "The Trevor Project (LGBTQ+ Youth)",
+      "category": "Crisis Lines",
+      "description": "Leading national organization providing crisis intervention and suicide prevention services to LGBTQ+ young people under 25.",
+      "url": "https://www.thetrevorproject.org",
+      "phone": "1-866-488-7386",
+      "sms": "Text START to 678-678",
+      "availableHours": "24/7",
+      "country": "United States",
+      "tags": [
+        "LGBTQ+",
+        "Youth",
+        "Trained Counselors"
+      ],
+      "verified": true
+    },
+    {
+      "id": "res-4",
+      "title": "Befrienders Worldwide",
+      "category": "Crisis Lines",
+      "description": "Global network of 349 emotional support centres in 32 countries helping individuals facing distress or suicidal feelings.",
+      "url": "https://www.befrienders.org",
+      "availableHours": "Directory of Global Services",
+      "country": "International",
+      "tags": [
+        "International",
+        "Multilingual",
+        "Volunteer"
+      ],
+      "verified": true
+    },
+    {
+      "id": "res-5",
+      "title": "Active Minds — Campus Mental Health",
+      "category": "Student & Campus",
+      "description": "Premier nonprofit supporting mental health awareness and education for young adults on over 1,000 high school and college campuses.",
+      "url": "https://www.activeminds.org",
+      "availableHours": "Educational & Peer Network",
+      "country": "United States",
+      "tags": [
+        "Students",
+        "College",
+        "Stigma Reduction"
+      ],
+      "verified": true
+    },
+    {
+      "id": "res-6",
+      "title": "The JED Foundation",
+      "category": "Student & Campus",
+      "description": "Empowers teens and young adults with the skills and support to grow into healthy, thriving adults, and prevents suicide.",
+      "url": "https://jedfoundation.org",
+      "availableHours": "Online Guides & Toolkits",
+      "country": "United States",
+      "tags": [
+        "Teens",
+        "College Students",
+        "Transitions"
+      ],
+      "verified": true
+    },
+    {
+      "id": "res-7",
+      "title": "Open Path Psychotherapy Collective",
+      "category": "Therapy & Counseling",
+      "description": "Non-profit nationwide network of mental health clinicians providing low-cost, in-office and online psychotherapy ($30–$70/session).",
+      "url": "https://openpathcollective.org",
+      "availableHours": "Directory & Appointment booking",
+      "country": "United States",
+      "tags": [
+        "Affordable Therapy",
+        "Sliding Scale",
+        "Licensed Clinicians"
+      ],
+      "verified": true
+    },
+    {
+      "id": "res-8",
+      "title": "7 Cups — Free Peer Support Community",
+      "category": "Community & Peer",
+      "description": "Online emotional support service connecting you with trained empathetic volunteer active listeners 24/7 in 189 countries.",
+      "url": "https://www.7cups.com",
+      "availableHours": "24/7 Chat Rooms",
+      "country": "International",
+      "tags": [
+        "Free Peer Support",
+        "Safe Space",
+        "Active Listeners"
+      ],
+      "verified": true
+    },
+    {
+      "id": "res-9",
+      "title": "UCLA Mindful Awareness Research Center",
+      "category": "Self-Care & Mindfulness",
+      "description": "Free guided mindfulness meditation audio tracks, breathing exercises, and research-backed well-being practices.",
+      "url": "https://www.uclahealth.org/programs/marc/free-guided-meditations",
+      "availableHours": "On-demand Web & App",
+      "country": "Global",
+      "tags": [
+        "Guided Meditation",
+        "Research-Backed",
+        "Sleep & Anxiety"
+      ],
+      "verified": true
+    }
+  ]
+}
